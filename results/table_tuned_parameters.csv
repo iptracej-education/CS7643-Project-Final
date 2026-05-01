@@ -1,0 +1,16 @@
+model_label,task,model_family,family,lr,weight_decay,max_epochs,patience,grad_clip_norm,score,val_loss,source_file,dropout,d_model,nhead,num_heads,num_layers,num_sab_layers,dim_feedforward,num_seed_vectors
+CNN,coordinate,cnn,cnn,0.0005,0.0001,60,12,,-40.88455954021719,0.1838139957613391,cnn_lstm_tuning_grid_results.csv,,,,,,,,
+CNN,joint,cnn,cnn,0.001,0.0005,50,10,,0.8406840666900552,0.9284466299036406,cnn_lstm_tuning_grid_results.csv,,,,,,,,
+CNN,multitask,cnn,cnn,0.001,0.0001,50,10,,0.8262826282628263,1.2403696697108064,cnn_lstm_tuning_grid_results.csv,,,,,,,,
+LSTM,coordinate,lstm,lstm,0.001,0.0001,50,10,1.0,-10.574129003503526,0.014666781800151,cnn_lstm_tuning_grid_results.csv,,,,,,,,
+LSTM,joint,lstm,lstm,0.0005,0.0005,80,15,1.0,0.9531953174932704,0.259720981147888,cnn_lstm_tuning_grid_results.csv,,,,,,,,
+LSTM,multitask,lstm,lstm,0.0005,0.0001,60,12,1.0,0.9513951395139514,0.3374772640389434,cnn_lstm_tuning_grid_results.csv,,,,,,,,
+MLP,coordinate,mlp,mlp,0.0005,0.0005,80,15,,-9.79397194295631,0.0109674830910096,mlp_tuning_grid_results.csv,,,,,,,,
+MLP,joint,mlp,mlp,0.001,0.0005,50,10,,0.9072907288046596,0.4199370583309771,mlp_tuning_grid_results.csv,,,,,,,,
+MLP,multitask,mlp,mlp,0.001,0.0005,50,10,,0.9090909090909092,0.5649359544905106,mlp_tuning_grid_results.csv,,,,,,,,
+set,coordinate,set,set,0.001,0.0005,50,10,1.0,-10.919728126913324,0.0134154653560594,transformer_tuning_grid_results.csv,0.1,128.0,,4.0,,2.0,256.0,1.0
+set,joint,set,set,0.0005,0.0005,80,15,1.0,0.9441944179934064,0.3377725601759609,transformer_tuning_grid_results.csv,0.1,128.0,,4.0,,2.0,256.0,1.0
+set,multitask,set,set,0.0005,0.0005,80,15,1.0,0.9558955881104182,0.2286105388951505,transformer_tuning_grid_results.csv,0.1,128.0,,4.0,,2.0,256.0,1.0
+standard,coordinate,standard,standard,0.001,0.0001,50,10,1.0,-9.980649224440278,0.012526589376193,transformer_tuning_grid_results.csv,0.1,128.0,4.0,,2.0,,256.0,
+standard,joint,standard,standard,0.001,0.0005,50,10,1.0,0.9504950500950956,0.3043600111582814,transformer_tuning_grid_results.csv,0.1,128.0,4.0,,2.0,,256.0,
+standard,multitask,standard,standard,0.001,0.0001,50,10,1.0,0.95769576812842,0.2273624322497018,transformer_tuning_grid_results.csv,0.1,128.0,4.0,,2.0,,256.0,

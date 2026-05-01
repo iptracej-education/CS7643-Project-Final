@@ -1,0 +1,7 @@
+family,task,lr,weight_decay,max_epochs,patience,print_every,batch_size,val_batch_size,grad_clip_norm,arch_d_model,arch_nhead,arch_num_layers,arch_dim_feedforward,arch_dropout,arch_num_heads,arch_num_sab_layers,arch_num_seed_vectors
+set,coordinate,0.001,0.0005,50,10,5,256,512,1.0,128,,,256,0.1,4.0,2.0,1.0
+standard,coordinate,0.001,0.0001,50,10,5,256,512,1.0,128,4.0,2.0,256,0.1,,,
+set,joint,0.0005,0.0005,80,15,5,256,512,1.0,128,,,256,0.1,4.0,2.0,1.0
+standard,joint,0.001,0.0005,50,10,5,256,512,1.0,128,4.0,2.0,256,0.1,,,
+set,multitask,0.0005,0.0005,80,15,5,256,512,1.0,128,,,256,0.1,4.0,2.0,1.0
+standard,multitask,0.001,0.0001,50,10,5,256,512,1.0,128,4.0,2.0,256,0.1,,,

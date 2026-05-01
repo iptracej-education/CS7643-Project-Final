@@ -1,0 +1,7 @@
+family,task,lr,weight_decay,max_epochs,patience,print_every,batch_size,val_batch_size,grad_clip_norm
+cnn,coordinate,0.0005,0.0001,60,12,5,256,512,
+cnn,joint,0.001,0.0005,50,10,5,256,512,
+cnn,multitask,0.001,0.0001,50,10,5,256,512,
+lstm,coordinate,0.001,0.0001,50,10,5,256,512,1.0
+lstm,joint,0.0005,0.0005,80,15,5,256,512,1.0
+lstm,multitask,0.0005,0.0001,60,12,5,256,512,1.0

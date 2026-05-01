@@ -1,0 +1,4 @@
+model,params,params_millions
+mlp_joint,1729037,1.729037
+mlp_multitask,1727752,1.727752
+mlp_coordinate,1726210,1.72621

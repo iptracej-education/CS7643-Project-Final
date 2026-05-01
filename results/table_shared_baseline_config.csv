@@ -1,0 +1,15 @@
+Hyperparameter,Value
+Optimizer,AdamW
+Learning rate,2e-3
+Weight decay,1e-4
+Batch size / Val batch size,256 / 512
+Train shuffle,True
+Num workers / Pin memory,0 / False
+Max epochs / Patience,200 / 20
+Print every,5 epochs
+Scheduler,ReduceLROnPlateau
+Scheduler factor / patience,0.5 / 4
+Scheduler minimum LR,1e-5
+Gradient clipping,None or model-specific during tuning
+Logging,Enabled (logs/)
+Run name,Auto-generated

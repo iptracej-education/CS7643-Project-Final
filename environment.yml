@@ -1,0 +1,19 @@
+name: uji-indoorloc
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy>=1.26
+  - pandas>=2.2
+  - scikit-learn>=1.4
+  - scipy>=1.11
+  - matplotlib>=3.8
+  - tqdm>=4.66
+  - pytorch>=2.2
+  - cpuonly
+  - xgboost>=2.0
+  - pip:
+      # Optional (nice to have, not required)
+      - rich>=13.7

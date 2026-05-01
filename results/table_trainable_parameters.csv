@@ -1,0 +1,31 @@
+model_label,task,model,model_family,params,params_millions,source_file
+CNN,coordinate,cnn_coordinate,cnn,1582082,1.582082,cnn_lstm_baseline_results.csv
+CNN,joint,cnn_joint,cnn,1584909,1.584909,cnn_lstm_baseline_results.csv
+CNN,multitask,cnn_multitask,cnn,1583624,1.583624,cnn_lstm_baseline_results.csv
+LSTM,coordinate,lstm_coordinate,lstm,1639203,1.639203,cnn_lstm_baseline_results.csv
+LSTM,joint,lstm_joint,lstm,1642030,1.64203,cnn_lstm_baseline_results.csv
+LSTM,multitask,lstm_multitask,lstm,1640745,1.640745,cnn_lstm_baseline_results.csv
+CNN,coordinate,cnn_coordinate,cnn,1582082,1.582082,cnn_lstm_parameter_report.csv
+CNN,joint,cnn_joint,cnn,1584909,1.584909,cnn_lstm_parameter_report.csv
+CNN,multitask,cnn_multitask,cnn,1583624,1.583624,cnn_lstm_parameter_report.csv
+LSTM,coordinate,lstm_coordinate,lstm,1639203,1.639203,cnn_lstm_parameter_report.csv
+LSTM,joint,lstm_joint,lstm,1642030,1.64203,cnn_lstm_parameter_report.csv
+LSTM,multitask,lstm_multitask,lstm,1640745,1.640745,cnn_lstm_parameter_report.csv
+MLP,coordinate,mlp_coordinate,mlp,1726210,1.72621,mlp_baseline_results.csv
+MLP,joint,mlp_joint,mlp,1729037,1.729037,mlp_baseline_results.csv
+MLP,multitask,mlp_multitask,mlp,1727752,1.727752,mlp_baseline_results.csv
+MLP,coordinate,mlp_coordinate,mlp,1726210,1.72621,mlp_parameter_report.csv
+MLP,joint,mlp_joint,mlp,1729037,1.729037,mlp_parameter_report.csv
+MLP,multitask,mlp_multitask,mlp,1727752,1.727752,mlp_parameter_report.csv
+Set Transformer,coordinate,set_transformer_coordinate,set_transformer,481794,0.481794,transformer_baseline_results.csv
+Set Transformer,joint,set_transformer_joint,set_transformer,483213,0.483213,transformer_baseline_results.csv
+Set Transformer,multitask,set_transformer_multitask,set_transformer,499080,0.49908,transformer_baseline_results.csv
+Standard Transformer,coordinate,transformer_coordinate,transformer,349442,0.349442,transformer_baseline_results.csv
+Standard Transformer,joint,transformer_joint,transformer,350861,0.350861,transformer_baseline_results.csv
+Standard Transformer,multitask,transformer_multitask,transformer,366728,0.366728,transformer_baseline_results.csv
+Set Transformer,coordinate,set_transformer_coordinate,set_transformer,481794,0.481794,transformer_parameter_report.csv
+Set Transformer,joint,set_transformer_joint,set_transformer,483213,0.483213,transformer_parameter_report.csv
+Set Transformer,multitask,set_transformer_multitask,set_transformer,499080,0.49908,transformer_parameter_report.csv
+Standard Transformer,coordinate,transformer_coordinate,transformer,349442,0.349442,transformer_parameter_report.csv
+Standard Transformer,joint,transformer_joint,transformer,350861,0.350861,transformer_parameter_report.csv
+Standard Transformer,multitask,transformer_multitask,transformer,366728,0.366728,transformer_parameter_report.csv

@@ -1,0 +1,10 @@
+model,params,params_millions
+mlp_joint_reference,1729037,1.729037
+mlp_multitask_reference,1727752,1.727752
+mlp_coordinate_reference,1726210,1.72621
+cnn_joint,1584909,1.584909
+cnn_multitask,1583624,1.583624
+cnn_coordinate,1582082,1.582082
+lstm_joint,1642030,1.64203
+lstm_multitask,1640745,1.640745
+lstm_coordinate,1639203,1.639203

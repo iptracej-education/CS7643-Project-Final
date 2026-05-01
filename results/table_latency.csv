@@ -1,0 +1,16 @@
+model_label,task,model,model_family,mean_ms,median_ms,p95_ms,n_samples,source_file
+CNN,coordinate,cnn_coordinate,cnn,1.1578277101307322,0.9775300277397037,1.0230139887426049,512,cnn_lstm_latency_results.csv
+CNN,joint,cnn_joint,cnn,1.1830928094695992,1.0397594887763262,1.0967084963340312,512,cnn_lstm_latency_results.csv
+CNN,multitask,cnn_multitask,cnn,1.234744150527452,1.0045719682238996,1.0968414426315576,512,cnn_lstm_latency_results.csv
+LSTM,coordinate,lstm_coordinate,lstm,60.786100345618856,49.92370802210644,132.2496022621635,512,cnn_lstm_latency_results.csv
+LSTM,joint,lstm_joint,lstm,72.9198116794123,58.48982051247731,181.79351996514012,512,cnn_lstm_latency_results.csv
+LSTM,multitask,lstm_multitask,lstm,63.29395490971971,49.47577154962346,144.92972049629316,512,cnn_lstm_latency_results.csv
+MLP,coordinate,mlp_coordinate,mlp,0.1711226709630864,0.1343204639852047,0.160900002811104,512,mlp_latency_results.csv
+MLP,joint,mlp_joint,mlp,0.1352344769808648,0.1345539931207895,0.1403282512910664,512,mlp_latency_results.csv
+MLP,multitask,mlp_multitask,mlp,0.1755401758600783,0.1471235882490873,0.1944652176462113,512,mlp_latency_results.csv
+Set Transformer,coordinate,set_transformer_coordinate,set_transformer,124.09484641996944,117.07628692965956,231.85370923602025,512,transformer_latency_results.csv
+Set Transformer,joint,set_transformer_joint,set_transformer,97.9416707918972,86.23637346317992,182.3896572459489,512,transformer_latency_results.csv
+Set Transformer,multitask,set_transformer_multitask,set_transformer,165.06698626153593,155.5009769508615,285.1005622651428,512,transformer_latency_results.csv
+Standard Transformer,coordinate,transformer_coordinate,transformer,40.95857878140426,33.14450796460733,108.77217480447143,512,transformer_latency_results.csv
+Standard Transformer,joint,transformer_joint,transformer,38.27507905452876,33.88739703223109,85.63671703450382,512,transformer_latency_results.csv
+Standard Transformer,multitask,transformer_multitask,transformer,68.935192579526,58.95963148213923,143.3731118158903,512,transformer_latency_results.csv
