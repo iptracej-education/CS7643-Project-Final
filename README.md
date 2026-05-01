@@ -1,12 +1,12 @@
 # Indoor Localization Project
 
-This is the final & clean project repository for Indoor Location Project in Class CS7643.
+This is the final, clean project repository for the Indoor Location Project in Class CS7643.
 
-The project members consist of :
+Project Members:
 
-- Jason W Park (jasonpark9001)
-- Wu, Di (dwu400) 
-- Kiyoshi Watanabe (kw53) 
+- Jason W. Park (jasonpark9001)
+- Di Wu (dwu400)
+- Kiyoshi Watanabe (kw53)
 
 ## Setup (required)
 
