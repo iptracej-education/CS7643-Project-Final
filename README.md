@@ -1,5 +1,13 @@
 # Indoor Localization Project
 
+This is the final project repository for Indoor Location Project in Class CS7643.
+
+The project members consist of :
+
+- Jason W Park (jasonpark9001)
+- Wu, Di (dwu400) 
+- Kiyoshi Watanabe (kw53) 
+
 ## Setup (required)
 
 - Run `pip install -e .` before running notebooks/tests.
