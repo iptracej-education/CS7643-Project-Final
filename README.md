@@ -1,6 +1,6 @@
 # Indoor Localization Project
 
-This is the final project repository for Indoor Location Project in Class CS7643.
+This is the final & clean project repository for Indoor Location Project in Class CS7643.
 
 The project members consist of :
 
